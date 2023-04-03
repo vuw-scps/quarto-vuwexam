@@ -1,0 +1,70 @@
+---
+title: |
+  scientific basis of \
+  murphy's laws
+coursecode: murph101
+date: 2023-10-01
+year: 2023
+trimester: 2
+timeallowed: three hours
+openorclosed: open book
+permitted: Any materials except communication via electronic devices.
+instructions: |
+   Attempt ALL **5** questions
+   
+   The exam will be marked out of a total of **20** marks.
+   
+   You can use the formulas listed at the end without rederiving them,\
+   unless explicitly requested.
+studentinfo: false
+---
+
+     
+## FIRST SECTION 
+
+1. Multiple choice questions. Briefly justify your answer if unsure. 
+   #. The reflectance of a planar multilayer structure increases with the addition of a metal layer:
+      #. only if placed in front
+      #. only if placed behind
+      #. it depends on the structure
+
+   #. At the Brewster angle, 
+      #. TE-polarised light is fully reflected 
+      #. TM-polarised is fully transmitted
+      #. the transmitted wave is evanescent
+   
+   #. A light ray propagating between points A and B in a medium with inhomogeneous but isotropic refractive index
+      #. finds the shortest distance between A and B
+      #. finds the extremum travel time between A and B
+      #. has a different trajectory depending on the light polarisation [8]{.rmark}
+
+1. Solving the Laplace equation.
+    #. Describe the key steps involved in the method of separation of variables for solving the Laplace equation in 3 dimensions.
+    #. How does the choice of a coordinate system affect the derivation? [5]{.rmark}
+    
+1. Question text.\
+   Maybe some extra lines, etc. 
+   
+   ![](figures/schematic.pdf){width="40%" fig-align="center"}
+   
+   Maybe some more lines, etc.  [2]{.rmark}
+
+1. Derive the following expressions in spherical coordinates.
+   $$\begin{aligned}
+\Grad f={}& \frac{\partial f }{\partial r} \vecrh + 
+             \frac{1}{r}\frac{\partial f}{\partial \theta} \vecth +
+              \frac{1}{r\sin \theta} \frac{\partial f}{\partial \varphi} \vecfh\\[1pt]
+\Div\vecA ={}&\frac {1}{r^{2}}  \frac{\partial}{\partial r} \left(r^{2}A_{r}\right)+ \frac {1}{r\sin \theta }\frac{\partial}{\partial \theta }\left(\sin \theta A_{\theta }\right)+ \frac {1}{r\sin \theta } \frac{\partial A_{\varphi }}{\partial \varphi }\\[1pt]
+\Curl \vecA ={}& \frac {1}{r\sin \theta } \left(\frac{\partial}{\partial \theta }\left(A_{\varphi }\sin \theta \right)-\frac{\partial A_{\theta }}{\partial \varphi }\right)\vecrh\\[1pt]
+&{}+\frac {1}{r} \left(\frac {1}{\sin \theta } \frac{\partial A_{r}}{\partial \varphi }-\frac{\partial }{\partial r }\left(r A_{\varphi}\right)\right)\vecth\\[1pt] 
+&{}+\frac {1}{r} \left(\frac{\partial }{\partial r }\left(r A_{\theta}\right) - \frac{\partial A_{r}}{\partial \theta }\right)\vecfh\\[1pt]
+\Lapl f={}& \frac {1}{r^2} \frac{\partial }{\partial r} \left(r^{2}\frac{\partial f }{\partial r} \right) + \frac {1}{r^2\sin \theta } \frac{\partial }{\partial\theta } \left(\sin \theta \frac{\partial f}{\partial \theta }\right) + \frac {1}{r^2\sin^2 \theta }\frac{\partial^2 f }{\partial\varphi ^2}
+\end{aligned}$$ [1]{.rmark}
+
+\thisistheend
+\pagebreak
+
+## APPENDIX: Misc. formulas from the lecture notes
+
+{{< include _app-vector-calculus.qmd >}}
+

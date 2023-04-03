@@ -1,0 +1,11 @@
+format: 
+  pdf:
+    template: _template.tex
+    keep-tex: true 
+    latex-tinytex: false
+date-format: medium
+pdf-engine: pdflatex
+filters:
+   - latex-environment
+commands: [mark,rmark,rmarkinline]
+
