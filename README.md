@@ -38,3 +38,10 @@ becomes
 
 [![](preview.png)](template.pdf)
 
+## Get started
+
+```
+quarto use template vuw-scps/quarto-vuwexam
+```
+
+and edit to your liking.
